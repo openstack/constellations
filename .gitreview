@@ -1,4 +1,4 @@
 [gerrit]
-host=review01.openstack.org
+host=review.openstack.org
 port=29418
 project=openstack/constellations.git
