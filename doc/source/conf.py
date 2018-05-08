@@ -13,18 +13,20 @@
 # limitations under the License.
 
 import datetime
-import os
-import sys
 
-sys.path.insert(0, os.path.abspath('../..'))
 # -- General configuration ----------------------------------------------------
 
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom ones.
 extensions = [
-    'sphinx.ext.autodoc',
     'openstackdocstheme',
 ]
+
+# openstackdocstheme settings
+repository_name = 'openstack/constellations'
+bug_project = '987'
+version = ''
+release = ''
 
 # Optionally allow the use of sphinxcontrib.spelling to verify the
 # spelling of the documents.
@@ -45,7 +47,6 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'constellations'
 copyright = u'%s, OpenStack Foundation' % datetime.date.today().year
 
 # If true, '()' will be appended to :func: etc. cross-reference text.
@@ -65,16 +66,4 @@ pygments_style = 'sphinx'
 # html_theme_path = ["."]
 # html_theme = '_theme'
 # html_static_path = ['static']
-
-# Output file base name for HTML help builder.
-htmlhelp_basename = '%sdoc' % project
-
-# Grouping the document tree into LaTeX files. List of tuples
-# (source start file, target name, title, author, documentclass
-# [howto/manual]).
-latex_documents = [
-    ('index',
-     '%s.tex' % project,
-     u'%s Documentation' % project,
-     u'OpenStack Foundation', 'manual'),
-]
+html_theme = 'openstackdocs'

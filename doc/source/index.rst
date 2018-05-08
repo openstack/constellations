@@ -1,25 +1,24 @@
-.. constellations documentation master file, created by
-   sphinx-quickstart on Tue Jul  9 22:26:36 2013.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
+================================================
+ Reference configurations of OpenStack services
+================================================
 
-constellations Design Specifications
-==================================================
+Constellations
+==============
+
+.. NOTE(dhellmann): Remove this line and uncomment the next to add content.
 
 .. .. toctree::
-..    :glob:
-..    :maxdepth: 2
+   :glob:
+   :maxdepth: 1
 
-   
+   *
 
-
-constellations Repository Information
-===================================================
+Repository Information
+======================
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
-   README <readme>
    contributing
 
 
@@ -27,6 +26,4 @@ Indices and tables
 ==================
 
 * :ref:`genindex`
-* :ref:`modindex`
 * :ref:`search`
-
