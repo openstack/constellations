@@ -1,4 +1,4 @@
-pbr>=0.11
-openstackdocstheme
-sphinx>=1.6.5
+pbr>=2.0,!=2.1
+openstackdocstheme>=2.0
+sphinx>=2.0
 yasfb>=0.5.1

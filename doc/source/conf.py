@@ -24,7 +24,7 @@ extensions = [
 
 # openstackdocstheme settings
 repository_name = 'openstack/constellations'
-bug_project = '987'
+use_storyboard = True
 version = ''
 release = ''
 
