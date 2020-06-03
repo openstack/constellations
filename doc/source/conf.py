@@ -23,8 +23,9 @@ extensions = [
 ]
 
 # openstackdocstheme settings
-repository_name = 'openstack/constellations'
-use_storyboard = True
+openstackdocs_repo_name = 'openstack/constellations'
+openstackdocs_use_storyboard = True
+openstackdocs_auto_version = False
 version = ''
 release = ''
 
@@ -57,7 +58,7 @@ add_function_parentheses = True
 add_module_names = True
 
 # The name of the Pygments (syntax highlighting) style to use.
-pygments_style = 'sphinx'
+pygments_style = 'native'
 
 # -- Options for HTML output --------------------------------------------------
 
